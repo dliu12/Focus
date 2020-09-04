@@ -1,0 +1,23 @@
+#block{
+  width:100%;
+  min-height:100%;
+  max-height:800%;
+  height:800%;
+  background-color:#2763c4;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:2000;
+  bottom:0;
+}
+#clock{
+  position:absolute;
+  text-align:center;
+  width:100%;
+  height:auto;
+  top:400px;
+  z-index:2001;
+  color:white;
+  font-size:55px;
+  font-family:'VT323';
+}

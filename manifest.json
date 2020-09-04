@@ -1,0 +1,17 @@
+{
+  "manifest_version":2,
+  "name":"Focus!",
+  "description":"This is an extension to help you stay focus at work and block off any page that will potentially distract you for a custom set amount of time.",
+  "version":"1.0",
+
+  "content_scripts":[
+    {
+      "matches":["https://*/*"],
+      "css":["style.css"],
+      "js":["script.js"]
+    }
+  ],
+  "icons":{
+    "128":"Focus.png"
+  }
+}
